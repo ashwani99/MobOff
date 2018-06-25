@@ -57,8 +57,6 @@ It is recommended that you use `virtualenv` (especially for `conda` users).
   * `. venv/bin/activate`
   * `python setup.py install`
 
-### You can also install it system-wide by `pip install MobOff` 
-
 3. You need to initialise with some of your information.
   
   * Run `moboff initialise`
