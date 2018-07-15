@@ -77,6 +77,9 @@ Feeding the data, url for download. Ultimately, the links have been sent to your
 ![](P2.gif?raw=true)
 
 ### With Docker (Use any of the two methods)
+
+Follow this [instructions](https://docs.docker.com/install) to install Docker if it is not installed.
+
 #### Pull Docker image from Docker Hub and start the container
 Make sure you are logged into Docker Hub from your command line by running `docker login`
 Now run the following commands
@@ -87,7 +90,7 @@ $ docker pull ashwani99/moboff
 $ xhost +
 
 # run the container
-$ docker run -it -e DISPLAY=$DISPLAY \
+$ docker run -it -rm -e DISPLAY=$DISPLAY \
              -v /tmp/.X11-unix:/tmp/.X11-unix \
              ashwani99/moboff
 
