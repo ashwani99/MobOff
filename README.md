@@ -81,7 +81,7 @@ Feeding the data, url for download. Ultimately, the links have been sent to your
 Follow this [instructions](https://docs.docker.com/install) to install Docker if it is not installed.
 
 #### Pull Docker image from Docker Hub and start the container
-Make sure you are logged into Docker Hub from your command line by running `docker login`
+Make sure you are logged into Docker Hub from your command line by running `docker login`. The Docker Hub repository is [here](https://hub.docker.com/r/ashwani99/moboff/).
 Now run the following commands
 ```
 $ docker pull ashwani99/moboff
